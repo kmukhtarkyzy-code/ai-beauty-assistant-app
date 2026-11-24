@@ -23,12 +23,12 @@
 ## Құжаттама
 * [Activity диаграмма: Бет терісін ЖИ-талдау және ұсыныс алу](docs/analysis/activity-skin-analysis.png)
 * [Sequence диаграмма: Бет терісін ЖИ-талдау және ұсыныс алу](docs/analysis/sequence-skin-analysis.png)
-* [DFD: Контекстік диаграмма](dfd-context.png)
-* [DFD: 0 деңгейі](dfd-level0.png)
-* [DFD: 1 деңгейі (2.0 «Бет терісін талдап, ұсыныс беру» процесі)](dfd-level1.png)
-* [ERD: деректер қорының моделі](erd.png)
-* [SQL схема, тестілік деректер және сұраныстар (schema.sql)](schema.sql)
-* [Сұраныстар нәтижесінің скриншоты](query-results.png)
+* [DFD: Контекстік диаграмма](docs/analysis/dfd-context.png)
+* [DFD: 0 деңгейі](docs/analysis/dfd-level0.png)
+* [DFD: 1 деңгейі (2.0 «Бет терісін талдап, ұсыныс беру» процесі)](docs/analysis/dfd-level1.png)
+* [ERD: деректер қорының моделі](docs/database/erd.png)
+* [SQL схема, тестілік деректер және сұраныстар (docs/database/schema.sql)](schema.sql)
+* [Сұраныстар нәтижесінің скриншоты](docs/database/query-results.png)
 
 ### Модельдердің сәйкестігі
 
