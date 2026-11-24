@@ -27,9 +27,9 @@
 * [DFD: 0 деңгейі](docs/analysis/dfd-level0.png)
 * [DFD: 1 деңгейі (2.0 «Бет терісін талдап, ұсыныс беру» процесі)](docs/analysis/dfd-level1.png)
 * [ERD: деректер қорының моделі](docs/database/erd.png)
-* [SQL схема, тестілік деректер және сұраныстар (docs/database/schema.sql)](schema.sql)
+* [SQL схема, тестілік деректер және сұраныстар (schema.sql)](docs/database/schema.sql)
 * [Сұраныстар нәтижесінің скриншоты](docs/database/query-results.png)
-
+* 
 ### Модельдердің сәйкестігі
 
 | DFD сыртқы объектісі | README пайдаланушысы | `users.role` |
