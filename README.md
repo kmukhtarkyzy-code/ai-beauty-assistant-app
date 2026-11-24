@@ -23,3 +23,29 @@
 ## Құжаттама
 * [Activity диаграмма: Бет терісін ЖИ-талдау және ұсыныс алу](docs/analysis/activity-skin-analysis.png)
 * [Sequence диаграмма: Бет терісін ЖИ-талдау және ұсыныс алу](docs/analysis/sequence-skin-analysis.png)
+- [DFD: Контекстік диаграмма](https://github.com/kmukhtarkyzy-code/ai-beauty-assistant-app/blob/main/docs/analysis/dfd-context.png)
+- [DFD: 0 деңгейі](https://github.com/kmukhtarkyzy-code/ai-beauty-assistant-app/blob/main/docs/analysis/dfd-level0.png)
+- [DFD: 1 деңгейі (2.0 «Бет терісін талдап, ұсыныс беру» процесі)](https://github.com/kmukhtarkyzy-code/ai-beauty-assistant-app/blob/main/docs/analysis/dfd-level1.png)
+- [ERD: деректер қорының моделі](https://github.com/kmukhtarkyzy-code/ai-beauty-assistant-app/blob/main/docs/database/erd.png)
+- [SQL схема, тестілік деректер және сұраныстар (schema.sql)](https://github.com/kmukhtarkyzy-code/ai-beauty-assistant-app/blob/main/docs/database/schema.sql)
+- [Сұраныстар нәтижесінің скриншоты](https://github.com/kmukhtarkyzy-code/ai-beauty-assistant-app/blob/main/docs/database/query-results.png)
+
+### Модельдердің сәйкестігі
+
+| DFD сыртқы объектісі | README пайдаланушысы | `users.role` |
+|---|---|---|
+| Пайдаланушы (Клиент) | Пайдаланушы (Клиент) | `client` |
+| Косметолог-сарапшы | Косметолог-сарапшы | `expert` |
+| Әкімші (Администратор) | Әкімші (Администратор) | `admin` |
+
+| DFD қоймасы | ERD кестесі | SQL кестесі |
+|---|---|---|
+| D1 | users | `users` |
+| D2 | skin_analyses | `skin_analyses` |
+| D3 | recommendations | `recommendations` |
+| D4 | products | `products` |
+| D5 | ingredients | `ingredients` |
+| D6 | favorites (M:N users — products) | `favorites` |
+| D7 | product_ingredients (M:N products — ingredients) | `product_ingredients` |
+
+DFD-дегі 2.0 процесі 12 аптадағы Sequence сценарийіне («Бет терісін ЖИ-талдау және ұсыныс алу») сәйкес келеді.
